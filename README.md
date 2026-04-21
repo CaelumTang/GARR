@@ -8,7 +8,7 @@ GARR mainly consists of three stages:
 2. **Task-aware Retrieval**: retrieve historical samples with consistent popularity trends based on aligned multimodal representations.
 3. **Retrieval Refinement**: combine the generative prior and retrieved contextual information for final prediction.
 
-This repository will provide the code and resources needed to reproduce the experiments and results reported in our paper.
+This repository will provide the code and resources needed to reproduce the results reported in our paper.
 
 ## To Do List
 
