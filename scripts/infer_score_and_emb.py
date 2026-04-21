@@ -157,7 +157,7 @@ def main() -> None:
 
         for start in tqdm(range(0, len(rows), batch_size), dynamic_ncols=True):
             batch = rows[start : start + batch_size]
-            batch_results = engine._infer_sage_batch(
+            batch_results = engine._infer_batch(
                 batch,
                 request_config=request_config,
                 template=template,
