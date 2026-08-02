@@ -1,0 +1,27 @@
+Third-party notices
+===================
+
+ms-swift
+--------
+
+GARR includes modified, installable ms-swift source under `src/ms-swift/`.
+It is derived from upstream commit
+`6d0bcfba8ce7a1dedfd20e1ac8fc887bb16619a0`.
+
+The GARR modifications add HDF5-backed image loading, the Generative Alignment
+objective, hidden-state forwarding required by that objective, and batched
+generated-score and representation export. Modified files carry a file-level
+notice. The complete change inventory is recorded in
+`src/ms-swift/GARR_MODIFICATIONS.md`.
+
+ms-swift is distributed under the Apache License 2.0. Its original copyright,
+attribution, and license terms remain applicable. A copy of its upstream
+license is included at `src/ms-swift/LICENSE`.
+
+Models and datasets
+-------------------
+
+InternVL and dataset licenses are separate from the GARR source-code license.
+Users must review and comply with their respective licenses and access terms
+before downloading, using, or redistributing models and data. This repository
+does not distribute model weights or dataset content.

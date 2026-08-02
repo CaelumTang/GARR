@@ -1,0 +1,40 @@
+# Local validation and release-review files
+.local/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Environments and local configuration
+.env
+.venv/
+env/
+venv/
+
+# Datasets, models, and generated outputs
+/data/
+/datasets/
+/models/
+/outputs/
+/artifacts/
+/checkpoints/
+
+*.h5
+*.npy
+*.npz
+*.pth
+*.pt
+*.pkl
+*.safetensors
+*.log
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
